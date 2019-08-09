@@ -28,6 +28,9 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 	      @ComponentScan("Miscallaneous"),
 	      @ComponentScan("com.glv.org.service")})
 public class Configu {
+	
+	
+	
 
 	 @Value("${db.driver}")
 	    private String DB_DRIVER;
